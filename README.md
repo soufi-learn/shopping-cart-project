@@ -1,5 +1,5 @@
 <h1>Shopping cart project with React & Redux 🤟</h1>
-<h3>I use Redux, react-router, styled-components, axios, sweet-alert and another pacages in this project</h3>
+<h3>I use Redux, TailwindCss, react-router, styled-components, axios, sweet-alert and another pacages in this project</h3>
 <p>I get shop data from <a href="https://fakestoreapi.com/">fake store api</a></p>
 <p>So! be sure to connect to Internet and Open it with VPN :)</p>
 <hr/>
