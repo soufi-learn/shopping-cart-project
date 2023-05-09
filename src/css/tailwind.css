@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply mb-5 text-5xl leading-normal;
+  }
+
+  h2 {
+    @apply mb-4 text-4xl leading-normal;
+  }
+
+  h3 {
+    @apply mb-3 text-3xl leading-normal;
+  }
+
+  h4 {
+    @apply mb-2 text-2xl leading-normal;
+  }
+
+  h5 {
+    @apply text-xl leading-normal;
+  }
+
+  h6 {
+    @apply text-lg leading-normal;
+  }
+
+  hr {
+    margin: 1rem 0;
+  }
+
+  body {
+    font-family: varela, sans-serif, Tahoma;
+    background: #f3fffc;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .btn {
+    @apply px-4 py-2 transition-all border border-solid rounded;
+  }
+
+  .counter-input::-webkit-outer-spin-button,
+  .counter-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  @font-face {
+    font-family: "varela";
+    src: url("../assets/fonts/VarelaRound-Regular.ttf");
+  }
+}
